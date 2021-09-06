@@ -1,0 +1,732 @@
+/*For my class Names i used names of individuals and materials for easy memorization.
+I also used about 4 particular Breakpoints, you can make your's shorter, by merging similar ones.
+I used 4 Fonts families and 3 font sizes 60, 25, 30 for px and the rems not more than 5rem*/
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+}
+
+#container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #c883fa;
+}
+
+nav{
+    border: none;
+    width: 100%;
+}
+
+.brandtitle{
+    font-size: 1.5rem;
+margin: .5rem;
+border: none;
+display: flex;
+flex-grow: .1;
+justify-content: center;
+font-family: 'Poppins', sans-serif;
+font-weight: 600;
+color: white;
+}
+
+.navbar-links ul{
+margin: 0;
+padding: 0;
+display: flex;
+}
+
+.navbar-links li{
+    list-style: none;
+}
+
+.navbar-links li a{
+    text-decoration: none;
+    color: white;
+    padding: .7rem;
+    display: block; 
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.navbar-links li a:hover{
+display: inline-block;
+border: none;
+border-radius: 15px;
+background-color: rgb(175, 29, 220);
+}
+
+
+.navbar-links{
+border: none;
+display: flex;
+flex-grow: 0.04;
+}
+
+.toggle-button{
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+
+.toggle-button .bar{
+height:1px;
+width: 100%;
+background-color: white;
+border-radius: 10px;
+font-weight: lighter;
+}
+
+
+@media(max-width:600px){
+    .toggle-button{
+        display: flex;
+    }
+
+    .navbar-links{
+        display: none;
+        width: 100%;
+    }
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+
+@media(max-width:600px){
+.navbar-links ul{
+    width: 100%;
+    flex-direction: column;
+    padding: 10px 0px;
+}
+
+.navbar-links ul li{
+   text-align: center;  
+}
+
+
+.navbar-links ul li a{
+padding: .5rem 1rem;
+border-bottom: 1px dashed rgb(175, 29, 220); 
+}
+
+.navbar-links ul li a:hover{
+    border: none;
+    background-color: none;
+}
+ .navbar-links.active{
+    display: flex;
+}
+
+}
+
+
+h1{
+    border: none;
+    position: absolute;
+    text-align: center;
+  font-size: 60px;
+  font-family: 'Dancing Script', cursive;
+color: white;
+}
+
+#next{
+    width: 95%;
+    flex-direction: column;
+    border: none;
+    overflow-x: hidden;
+    margin: auto;
+    text-align: center;
+    background-color: #49c0fb;
+}
+
+.fame{
+    border: none;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+
+}
+
+#twick{
+    color: rgb(141, 32, 250);
+    font-size: 20px;
+    position: absolute;
+    border: none;
+    display: flex;
+    margin-top: 10%;
+    justify-content: center;
+    text-align: center;
+}
+
+img{
+    width: 60%;
+    margin-top: -20px;
+    
+}
+
+.rame{
+        border: none;
+        width: 100%;
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        padding: 0px;
+}
+
+.same{
+    border: none;
+    width: 100%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    padding: 0px;
+}
+
+.pic{
+    width: 90%;
+    margin-top: 5px;
+    border-top-right-radius: 100px;
+}
+
+.pic.ric{
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 100px;
+}
+
+@media(max-width:1075px) and (min-width:100px){
+    img{
+        width: 80%;
+        margin-top: -20px;
+    }
+}
+
+    .noma{
+        border: none;
+        width: 100%;
+   
+    }
+    .boma{
+        border: none;
+        width: 100;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        line-height: 2rem;
+        font-family: sans-serif;
+        font-size: 17px;
+    }
+
+    .boma p{
+        margin-top: -5px;
+        font-family: 'PT Sans', sans-serif;
+        font-size: 17px;
+    }
+    
+    .boma h2{
+        font-size: 30px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    #divider{
+        border: none;
+        width: 100%;
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-gap: .3rem;
+        padding: 0px;
+        margin-top: 60px;
+    }
+    
+    #sane{
+    width: 100%;
+    margin-top: -50px;
+  
+    }
+
+    #mba{
+        border: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        width: 90%;
+        margin-left: 25px;
+    }
+
+
+
+    @media(max-width:970px){
+        #next{
+            width: 100%;
+            flex-direction: column;
+            border: none;
+            overflow-x: hidden;
+            margin: auto;
+            text-align: center;
+            background-color: #49c0fb;
+        }
+
+        .pic{
+            width: 100%;
+            margin-top: 35px;
+        }
+    }
+
+    @media(max-width:970px){
+        .rame{
+            border: none;
+            width: 100%;
+            text-align: center;
+            display: flex;
+            flex-direction: column-reverse;
+    }
+    .noma{
+        border: none;
+        width: 100%;
+    }
+    
+    .same{
+        border: none;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .pic{
+        width: 80%;
+        margin-top: 5px;
+    }
+
+    .boma{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    }
+    }
+
+    @media(max-width:740px){
+        img{
+            width: 150%;
+            margin-top: -20px;
+        }
+
+    }
+.head{
+    text-align: center;
+    font-size: 40px;
+    text-transform: capitalize;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+#mbe{
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 90%;
+    margin-left: 25px;
+    margin-top: 0px;
+}
+
+#mbe span{
+    display: inline-block;
+    border: none;
+    margin-top: -180px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+span  p{
+    line-height: 1.5rem;
+    margin-top: -5px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+    #mba span{
+        display: inline-block;
+        border: none;
+        margin-top: -180px;
+        font-family: 'Montserrat', sans-serif;
+
+    }
+
+    @media(max-width:880px){
+        #sane{
+            width: 100%;
+            margin-top: -50px;
+          
+            }   
+    }
+
+    @media(max-width:800px){
+        #divider{
+           display: flex;
+           justify-content: space-between;
+           align-items: center;
+           flex-direction: column;
+            }   
+
+            #mba{
+margin-left: 0px;
+text-align: center;
+            }
+
+            #mbe{
+                margin-left: 0px;
+                text-align: center;
+                margin-top: 150px;
+                            }
+    }
+
+    #emily{
+    width: 100px;
+    border-radius: 50%;
+    }
+
+    #jeje{
+        border: none;
+        width: 100%;
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+        grid-gap: .3rem;
+        margin-top: 40px;
+    }
+
+    .comma{
+        border-bottom: 1px dashed red;
+        color: red;
+        text-decoration: none;
+    }
+
+    .ok{
+        display: none;
+    }
+
+    #commando h2{
+        text-align: center;
+        font-size: 30px;
+        font-family: 'PT Sans', sans-serif;
+    }
+
+    #loyal .pus{
+        line-height: 1.5rem;
+        margin-top: -2px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        color: black;
+    }
+
+    #loyal h4{
+        margin-top: -5px;
+        font-family: 'Noto Sans JP', sans-serif;
+    }
+
+    #commando article{
+        margin-top: -15px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    #commando{
+        margin-top: 50px;
+    }
+
+#cool img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+#pool img{
+    display: none;
+}
+
+#pool{
+display: none;
+}
+
+.ool img{
+    display: none;
+}
+
+.ool{
+    display: none;
+}
+
+#cool{
+    border: none;
+    width: 100%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-gap: .3rem;
+    margin-top: 40px;
+}
+
+#cool a:hover{
+    transform: scale(0.9);
+}
+
+    
+@media(max-width:790px){
+    #jeje{
+        border: none;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    #loyal{
+        margin-top: 30px;
+    }
+.ok{
+    display: block;
+}
+
+.ool{
+    border: none;
+    width: 100%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-gap: .1rem;
+    margin-top: 40px;
+}
+
+#pool{
+    border: none;
+    width: 100%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-gap: .1rem;
+    margin-top: 40px;
+}
+
+#cool{
+    display: none;
+}
+
+.ool img{
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+}
+
+#pool img{
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+}
+
+#pool a:hover{
+    transform: scale(0.9);
+}
+
+.ool a:hover{
+    transform: scale(0.9);
+}
+
+}
+
+#wash h4{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.footed{
+    border: none;
+    display: flex;
+   justify-content: center;
+   list-style: none;
+   justify-content: space-between;
+
+}
+
+.footed a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+} 
+
+.footed a:hover{
+    text-decoration: overline rgb(243, 57, 57);
+    color: rgb(243, 57, 57);
+} 
+
+.footed .dice{
+    color: white;
+}
+
+
+footer {
+    border: none;
+    background-color: #c883fa;
+    position: sticky;
+    bottom: 0px;
+    padding: 5px 0px;
+    margin-top: 5px;
+    padding-bottom: 5px;
+    }
+
+    .icons{
+        text-align: center;
+    }
+
+    .icons a{
+        color: white;
+    }
+
+    .icons a:hover{
+        color: rgb(240, 116, 116);
+    }
+
+    i{
+        font-size: 20px;
+        padding: 0px 15px;
+    }
+
+    footer h3{
+        text-align: center;
+        font-size: 20px;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    
+    @media (max-width:390px){
+        .footed{
+            border: none;
+            display: flex;
+           justify-content: center;
+           flex-direction: column;
+           font-family: 'Poppins', sans-serif;
+           text-align: start;
+        }
+
+        .footed li{
+            margin-left: 100px;
+            padding: 3px 0px;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .dice{
+            margin-left: -50px;
+        }
+        }
+
+@media (max-width:520px){
+   .fame h1{
+    font-size: 40px;
+    margin-top: 50px;
+    font-family: 'Dancing Script', cursive;
+   }
+
+#wash h4{
+    font-size: 25px;
+}
+
+#commando h2{
+    font-size: 30px;
+}
+
+.head{
+    font-size: 30px;
+}
+
+.footed li:nth-child(1){
+    display: none;
+}
+
+.boma h2{
+    font-size: 25px;
+}
+
+.boma p{
+    font-size: 15px;
+}
+        }
+
+        .toggle .bar.bar1{
+            transform: rotate(-45deg) translate(-5px,6px);
+        }
+        .toggle .bar.bar2{
+            opacity: 0;
+        }
+        .toggle .bar.bar3{
+            transform: rotate(45deg) translate(-5px,-6px);
+        }
+
+        .toggle-button  span{
+            transition: all 0.5s ease;
+        }
+
+        @media (max-width:410px){
+            span p{
+                font-size: 10px;
+                margin-top: 0px;
+            }
+            
+            span h3{
+                margin-top: 80px;
+                font-size: 13px;
+            }
+            
+            #mba{
+                margin-top: 25px;
+            }
+        }
+
+        @media (max-width:320px){
+.footed{
+    margin-left: -35px;
+}
+.dice{
+    margin-left: -10px;
+}
+
+span p{
+    font-size: 10px;
+    margin-top: 0px;
+    line-height: 1.1rem;
+}
+        }
+/*End of Our Beautiful Designs*/
+        
+
+
+
