@@ -10,8 +10,7 @@
    This is a Portfolio website, which is showcasing different types of design and passion for decorating different works, anywhere around. Firstly this beautigul work is for practsing on understanding and broadening of building and designing a beautiful website with good UI's.
 
 ## pictures of this Work
- ##An Example##
-<img src="transform.png">
+<img src="transform.png" width = 100>
 
 <img src="brand.png">
 
