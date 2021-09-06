@@ -69,12 +69,13 @@
    ## Best syntax Used
 
     ``CSS
-   (transform), (flex-box), and (power of proper font usage).
+   (Transform), (flex-box), and (power of proper font usage).
   Transform is very important for efficient animations to improver the ui's of a website, with the flex-box to avoid dis-mantle of sections and our all underrated font usage.
    ``
 
    ## Resources that helped ##
-   -For the Colors[https://htmlcolorcodes.com/color-names/]
+   -For the Colors[https://htmlcolorcodes.com/color-names/].
+   
    -For the icons[https://fontawesome.com/v5.15/icons/instagram?style=brands] and svg's in the folder.
 
 
