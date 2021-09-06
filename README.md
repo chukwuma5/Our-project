@@ -10,7 +10,7 @@
    This is a Portfolio website, which is showcasing different types of design and passion for decorating different works, anywhere around. Firstly this beautigul work is for practsing on understanding and broadening of building and designing a beautiful website with good UI's.
 
 ## pictures of this Work
-<img src="transform.png" width = 100>
+<img src="transform.png" width = 300>
 
 <img src="brand.png">
 
@@ -28,12 +28,12 @@
  -USED THE POSITION PROPERTY IN ENSURING  SMOOTH AND LAYOUT AND CHECKPOINTS.
  -IT'S ALSO VERY RESPONSVE.see.....
 
- ##Larger screen sizes##
+ ## Larger screen sizes
 <img src="cool.png">
 
 <img src="cooled.png">
 
- ##smaller screen sizes##
+ ## smaller screen sizes
 <img src="beauty.png">
 
 <img src="beauty's.png">
