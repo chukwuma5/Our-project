@@ -46,7 +46,7 @@
 
 
 ##worked on an animation section##
--CSS TRANSFORM: Super useful syntax used to animate elements for little interaction
+-CSS TRANSFORM: Super useful syntax used to animate elements for little interactions.
 
 <img src="tap.png">
 
